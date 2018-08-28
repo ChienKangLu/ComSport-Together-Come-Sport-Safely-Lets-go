@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="宜蘭太平山自行車挑戰"
+
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textSize="30dp"
+        android:layout_marginLeft="14dp"
+        android:textColor="@color/B" />
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2015年6月六日(星期六)"
+        android:paddingTop="5dp"
+        android:layout_below="@+id/title"
+        android:layout_alignLeft="@+id/title"
+        android:textColor="@color/B" />
+    <TextView
+        android:id="@+id/dis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:text="22.7km"
+        android:layout_below="@+id/date"
+        android:layout_alignLeft="@+id/title"/>
+    <TextView
+        android:id="@+id/go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/race"
+
+        android:layout_below="@+id/dis"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/detailtext"
+        />
+    <TextView
+        android:id="@+id/url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="url"
+        android:visibility="gone"
+        android:layout_below="@+id/go"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/detailtext"
+        />
+
+    <!--
+               android:textScaleX="1.5" -->
+</RelativeLayout>

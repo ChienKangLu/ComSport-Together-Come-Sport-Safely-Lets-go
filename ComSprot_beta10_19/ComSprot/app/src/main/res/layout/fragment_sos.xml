@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--120,23--><!--notyet,notyet-->
+    <TextView
+        android:id="@+id/Toplevelvariable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="notyet,notyet"
+        android:visibility="gone"/>
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        app:pstsShouldExpand="true"
+        app:pstsTextAllCaps="true"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/total_top"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:pstsDividerColor="@android:color/transparent"
+        app:pstsIndicatorHeight="5dp"
+        app:pstsIndicatorColor="@color/white"
+        app:pstsTabBackground="@drawable/tabchoose"
+        android:layout_alignParentTop="true"
+        >
+    </com.astuetz.PagerSlidingTabStrip>
+    <!--
+            app:pstsTabBackground="@color/total_top"
+    -->
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_below="@id/tabs"/>
+
+    <ImageView
+        android:id="@+id/bkloc"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/locwait"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

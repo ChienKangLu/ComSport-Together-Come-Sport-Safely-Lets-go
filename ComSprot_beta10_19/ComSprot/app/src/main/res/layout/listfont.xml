@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+<!--  
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ic_launcher" >
+    </ImageView>-->
+<!--
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/B" 
+       	android:text="dpfhjw" 
+         >
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="4dp"
+        android:text="dpfhjw\nofihewf"
+        android:textColor="@color/B"
+        android:textSize="25dp" />
+-->
+    <TextView
+        android:id="@+id/vid"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        />
+    <com.google.android.youtube.player.YouTubeThumbnailView
+        android:id="@+id/youtubethumbnailview"
+        android:layout_width="130dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        />
+    <ImageView
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:src="@drawable/playvideo_icon2"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="58dp"
+        android:id="@+id/imageView2" />
+    <TextView
+    android:id="@+id/videostitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="2014 07 12 菜鳥單車環島..."
+
+        android:ellipsize="end"
+        android:singleLine="true"
+
+    android:layout_alignTop="@+id/youtubethumbnailview"
+    android:layout_toRightOf="@+id/youtubethumbnailview"
+    android:layout_marginLeft="14dp"
+    android:layout_marginStart="28dp"
+        android:textColor="@color/B"/>
+    <TextView
+        android:id="@+id/videospeople"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="陸建綱"
+        android:layout_below="@+id/videostitle"
+        android:layout_alignLeft="@+id/videostitle"
+        android:layout_alignStart="@+id/videostitle"
+        android:textColor="@color/B" />
+    <TextView
+        android:id="@+id/videostime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1:01"
+        android:layout_below="@+id/videospeople"
+        android:layout_alignLeft="@+id/videostitle"
+        android:layout_alignStart="@+id/videostitle"
+        android:textColor="@color/B" />
+    <TextView
+        android:id="@+id/videosfromU2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="路線來自 Youtube"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:textSize="10dp"
+        android:layout_marginBottom="20dp"
+        />
+
+<!--
+       	android:textScaleX="1.5" -->
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lwtwka.basal.comsprot.say_hi"
+    android:background="@color/sahi">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/center"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/sahi_center"
+            android:layout_centerInParent="true"/>
+
+        <ImageView
+            android:layout_width="190dp"
+            android:layout_height="100dp"
+            android:src="@drawable/sahi_title"
+            android:layout_above="@id/center"
+            android:scaleType="fitCenter"
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="55dp"
+        android:src="@drawable/sahi_r"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        />
+
+</RelativeLayout>

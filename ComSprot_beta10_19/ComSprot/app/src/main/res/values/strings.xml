@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name2">ComSprot</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_friends">Friends</string>
+    <string name="nav_item_notifications">Messages</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_friends</item>
+        <item>@string/nav_item_notifications</item>
+    </string-array>
+
+    <string name="title_messages">Messages</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_home">Home</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_chart">chart</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_youtube">youtube</string>
+    <string name="title_activity_youtubelist">youtubelist</string>
+    <string name="title_activity_youtube_data">youtube_data</string>
+    <string name="title_activity_userride2_detail">userride2_detail</string>
+    <!--my-->
+    <string name="detailgoto"><u>詳細分析資訊>></u></string>
+    <string name="race"><u>詳細資訊>>>></u></string>
+    <string name="title_activity_analyst_chart2">analyst_chart2</string>
+    <string name="title_activity_mydbgo">mydbgo</string>
+    <string name="title_activity_race_detail">race_detail</string>
+    <string name="title_activity_trycard">trycard</string>
+    <string name="title_activity_login">login</string>
+    <string name="title_activity_photo">photo</string>
+    <string name="title_activity_heightchange">heightchange</string>
+    <string name="title_activity_weightchange">weightchange</string>
+    <string name="title_activity_agechange">agechange</string>
+    <string name="title_activity_codechange">codechange</string>
+    <string name="title_activity_runtest">runtest</string>
+    <string name="title_activity_ftp">ftp</string>
+    <string name="title_activity_try_grid_checkbox">try_grid_checkbox</string>
+    <string name="title_activity_screen_test">screen_test</string>
+    <string name="title_activity_regist">regist</string>
+    <string name="title_activity_game_play">game_play</string>
+    <string name="title_activity_josontest">josontest</string>
+    <string name="title_activity_ngis">ngis</string>
+    <string name="title_activity_swipe">swipe</string>
+    <string name="title_activity_joinbike_choosewho">joinbike_choosewho</string>
+    <string name="title_activity_join_sent_item">join_sent_item</string>
+    <string name="title_activity_joint_sentence">joint_sentence</string>
+    <string name="title_activity_say_hi">say_hi</string>
+    <string name="title_activity_sosmap">sosmap</string>
+    <string name="title_activity_challenge">challenge</string>
+    <string name="title_activity_iloveu">iloveu</string>
+</resources>

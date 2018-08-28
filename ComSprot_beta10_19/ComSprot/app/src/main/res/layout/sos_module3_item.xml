@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/pic"
+        android:src="@drawable/ask_icon2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="基隆市旅遊服務中心"
+        android:textStyle="bold"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_alignParentTop="true"
+        android:paddingTop="10dp"
+        android:layout_toRightOf="@+id/pic"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="28dp"
+        android:textColor="@color/B"/>
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="基隆市港西街1號"
+        android:paddingTop="4dp"
+        android:layout_below="@+id/title"
+        android:layout_alignLeft="@+id/title"
+        android:layout_alignStart="@+id/title"
+        android:textColor="@color/B" />
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:text="02 2428 7664"
+        android:layout_below="@+id/address"
+        android:layout_alignLeft="@+id/title"
+        android:layout_alignStart="@+id/title"/>
+    <ImageView
+        android:id="@+id/gmap"
+        android:src="@drawable/map_button2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:paddingTop="4dp"
+        android:layout_below="@id/phone"
+        android:layout_alignLeft="@+id/title">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/call"
+        android:src="@drawable/phone_button2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:paddingTop="4dp"
+        android:layout_alignBottom="@id/gmap"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp">
+    </ImageView>
+    <!--
+               android:textScaleX="1.5" -->
+</RelativeLayout>

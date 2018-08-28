@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.lwtwka.basal.comsprot">
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <!--
+    <meta-data
+        android:name="com.google.android.maps.v2.API_KEY"
+        android:value="AIzaSyD3N1v6YRfTW9cDVdYKT3Hjspc-fNWTXAA" />
+    <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+    -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- android:icon="@mipmap/ic_launcher" -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mainiconson"
+        android:label="@string/app_name2"
+        android:theme="@style/MyMaterialTheme"
+        tools:replace="label,icon,theme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD3N1v6YRfTW9cDVdYKT3Hjspc-fNWTXAA" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait"> <!-- （強制豎屏） -->
+            >
+        </activity>
+        <activity
+            android:name=".chart"
+            android:label="@string/title_activity_chart"
+            android:screenOrientation="portrait"> <!-- （強制豎屏） -->
+
+        </activity>
+        <activity android:name=".youtube"> <!-- （強制豎屏） -->
+
+        </activity>
+        <!--
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+        -->
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".youtubelist"
+            android:label="@string/title_activity_youtubelist"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".youtube_data"
+            android:label="@string/title_activity_youtube_data" />
+        <activity
+            android:name=".userride2_detail"
+            android:label="@string/title_activity_userride2_detail" />
+        <activity
+            android:name=".analyst_chart2"
+            android:label="@string/title_activity_analyst_chart2" />
+        <activity
+            android:name=".mydbgo"
+            android:label="@string/title_activity_mydbgo" />
+        <activity
+            android:name=".race_detail"
+            android:label="@string/title_activity_race_detail" />
+        <activity
+            android:name=".login"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".photo"
+            android:label="@string/title_activity_photo" />
+        <activity
+            android:name=".heightchange"
+            android:label="@string/title_activity_heightchange" />
+        <activity
+            android:name=".weightchange"
+            android:label="@string/title_activity_weightchange" />
+        <activity
+            android:name=".agechange"
+            android:label="@string/title_activity_agechange" />
+        <activity
+            android:name=".codechange"
+            android:label="@string/title_activity_codechange" />
+        <activity
+            android:name=".runtest"
+            android:label="@string/title_activity_runtest" />
+        <activity
+            android:name=".ftp"
+            android:label="@string/title_activity_ftp" />
+        <activity
+            android:name=".try_grid_checkbox"
+            android:label="@string/title_activity_try_grid_checkbox" />
+        <activity
+            android:name=".screen_test"
+            android:label="@string/title_activity_screen_test" />
+        <activity
+            android:name=".regist"
+            android:label="@string/title_activity_regist" />
+        <activity
+            android:name=".userride2_detail_share"
+            android:label="@string/title_activity_userride2_detail" />
+        <activity
+            android:name=".game_play"
+            android:label="@string/title_activity_game_play" />
+        <activity
+            android:name=".game_package.game_frame"
+            android:label="@string/title_activity_game_play"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game_package.rank"
+            android:label="@string/title_activity_game_play" />
+        <activity
+            android:name=".josontest"
+            android:label="@string/title_activity_josontest" />
+        <activity
+            android:name=".myngis.ngis"
+            android:label="@string/title_activity_ngis" />
+        <activity
+            android:name=".basalmainpagehaha.joinbikeActivity"
+            android:label="@string/title_activity_ngis" />
+        <activity
+            android:name=".swipe"
+            android:label="@string/title_activity_swipe" />
+        <activity
+            android:name=".joinbike_choosewho"
+            android:label="@string/title_activity_joinbike_choosewho" />
+        <activity
+            android:name=".joint_sentence"
+            android:label="@string/title_activity_joint_sentence" />
+        <activity
+            android:name=".say_hi"
+            android:label="ComSprot">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".sosmap"
+            android:label="@string/title_activity_sosmap" />
+        <activity
+            android:name=".challenge"
+            android:label="@string/title_activity_challenge" />
+        <activity
+            android:name=".frd.addActivity"
+            android:label="@string/title_activity_challenge" />
+        <activity
+            android:name=".frd.checkActivity"
+            android:label="@string/title_activity_challenge" />
+
+    </application>
+
+</manifest>

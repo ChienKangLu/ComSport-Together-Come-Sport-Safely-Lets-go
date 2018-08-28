@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/background2"><!--android:background="@drawable/bg"-->
+    <!--
+    <LinearLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+    -->
+
+        <ListView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/list1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:listSelector="@android:color/transparent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="10dp"
+            >
+        </ListView>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/add"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/frd_add"
+        android:layout_margin="10dp"
+        />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/check"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/frd_check"
+        android:layout_margin="10dp"
+        android:layout_below="@id/add"
+        />
+
+</RelativeLayout>

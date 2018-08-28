@@ -1,0 +1,218 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="100dp"
+    >
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" ff"
+        android:visibility="gone"/>
+    <ImageView
+        android:id="@+id/roadpic"
+        android:src="@drawable/map_loading1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" >
+    </ImageView>
+    <ImageView
+
+        android:id="@+id/star1"
+        android:scaleType="fitCenter"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:src="@drawable/star_green"
+        android:layout_below="@id/roadpic"
+        android:layout_alignLeft="@id/roadpic"
+        android:layout_marginTop="10dp"
+        />
+    <ImageView
+
+        android:id="@+id/star2"
+        android:scaleType="fitCenter"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:src="@drawable/star_lightgreen"
+        android:layout_toRightOf="@id/star1"
+        android:layout_alignTop="@id/star1"
+        android:layout_marginLeft="1dp"
+        />
+    <ImageView
+
+        android:id="@+id/star3"
+        android:scaleType="fitCenter"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:src="@drawable/star_orange"
+        android:layout_toRightOf="@id/star2"
+        android:layout_alignTop="@id/star1"
+        android:layout_marginLeft="1dp"
+        />
+    <ImageView
+
+        android:id="@+id/star4"
+        android:scaleType="fitCenter"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:src="@drawable/star_red"
+        android:layout_toRightOf="@id/star3"
+        android:layout_alignTop="@id/star1"
+        android:layout_marginLeft="1dp"
+        />
+    <ImageView
+        android:id="@+id/star5"
+        android:scaleType="fitCenter"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:src="@drawable/star_yellow"
+        android:layout_toRightOf="@id/star4"
+        android:layout_alignTop="@id/star1"
+        android:layout_marginLeft="1dp"
+        />
+
+    <!--
+    <WebView
+        android:id="@+id/roadpic"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        ></WebView>-->
+    <TextView
+        android:id="@+id/descript"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="景美自行車路口-北海岸回程"
+        android:layout_toRightOf="@+id/roadpic"
+
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="28dp"
+        android:textColor="@color/B" />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:src="@drawable/location_lu"
+        android:padding="10dp"
+        android:layout_toLeftOf="@id/title"
+        android:layout_alignTop="@id/descript"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="富貴角燈塔"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_below="@+id/descript"
+        android:layout_alignLeft="@+id/descript"
+        android:layout_alignStart="@+id/descript"
+        android:textSize="20dp"
+        android:paddingTop="5dp"
+        android:textColor="@color/B"/>
+
+    <TextView
+        android:id="@+id/dis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:text="22.7km"
+        android:layout_below="@+id/title"
+        android:layout_alignLeft="@+id/descript"
+        android:layout_alignStart="@+id/descript"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="28dp"
+        android:src="@drawable/dis_lu"
+        android:layout_below="@+id/title"
+        android:padding="5dp"
+        android:layout_toLeftOf="@+id/dis"/>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:text="00:15:49"
+        android:layout_below="@+id/dis"
+        android:layout_alignLeft="@+id/descript"
+        android:layout_alignStart="@+id/descript"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:src="@drawable/time_lu"
+        android:layout_below="@+id/dis"
+        android:layout_toLeftOf="@+id/time"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/go2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 建立"
+        android:textSize="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="陸建綱"
+        android:textSize="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/go2"
+        android:paddingTop="2dp"
+        android:layout_alignBaseline="@id/go2"
+        android:textColor="@color/B"
+        />
+    <TextView
+        android:id="@+id/go1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="路線由 "
+        android:textSize="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/go"
+        />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:src="@drawable/whorun_lu"
+        android:layout_toLeftOf="@id/go1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-5dp"
+        android:padding="5dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/circlepichaha"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+    <!--
+    <ImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/circlepichaha"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+        -->
+
+    <!--
+               android:textScaleX="1.5" -->
+</RelativeLayout>

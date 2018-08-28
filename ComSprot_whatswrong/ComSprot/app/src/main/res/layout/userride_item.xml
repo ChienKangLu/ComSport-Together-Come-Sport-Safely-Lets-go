@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" ff"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/fav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id"
+        android:text=" ff"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/B"
+        android:text="2015/05/30"/>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/date"
+        android:textColor="@color/B"
+        android:layout_alignLeft="@+id/date"
+        android:text="總耗費時間 01'40'07"/>
+    <TextView
+        android:id="@+id/kcal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="209 cal"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/time"
+        android:layout_alignLeft="@+id/time"
+        />
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.5 km"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/favorite"
+        android:background="@drawable/favorite2"
+        android:layout_alignBottom="@+id/kcal"
+        android:layout_alignRight="@+id/distance"
+        android:layout_alignEnd="@+id/distance"
+        android:clickable="true"/>
+</RelativeLayout>

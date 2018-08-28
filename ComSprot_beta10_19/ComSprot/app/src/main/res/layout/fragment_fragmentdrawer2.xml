@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/L1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/I">
+
+    <TextView
+        android:id="@+id/a1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/G"
+        android:gravity="center"
+        android:text="規則"
+        android:textColor="@color/B"
+        android:textSize="23dp" />
+
+    <ExpandableListView
+        android:id="@+id/listc2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/H"
+        android:listSelector="@android:color/transparent" >
+    </ExpandableListView>
+
+</LinearLayout>

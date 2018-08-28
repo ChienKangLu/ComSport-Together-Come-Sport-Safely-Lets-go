@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.leo.map.MainActivity">
+
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webView"/>
+    <TextView
+        android:id="@+id/show"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="前方100公尺，下坡請注意!"
+        android:background="@color/map"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:visibility="invisible"/>
+<!--
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button2"
+        android:layout_below="@+id/webView"
+        android:layout_centerHorizontal="true" />
+        -->
+</RelativeLayout>

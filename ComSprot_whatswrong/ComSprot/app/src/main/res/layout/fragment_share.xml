@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is the fragment  to be displayed for a section associated with a tab -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2">
+
+
+    <ImageView
+        android:id="@+id/fbcicle"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/fb_bg2"/>
+
+    <ImageView
+        android:id="@+id/youtubecircle"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_toRightOf="@id/fbcicle"
+        android:layout_alignTop="@id/fbcicle"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="-15dp"
+        android:src="@drawable/youtube_bg2"/>
+
+    <ImageView
+        android:id="@+id/sportcircle"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_alignTop="@id/youtubecircle"
+        android:layout_alignLeft="@id/fbcicle"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/sport_bg2"/>
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/perimg"
+        android:layout_alignTop="@id/fbcicle"
+        android:layout_alignLeft="@id/fbcicle"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_alignTop="@id/profile_image"
+        android:layout_toRightOf="@id/profile_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="10dp"
+        android:text="陸建綱"/>
+
+    <ImageView
+        android:id="@+id/fbbtn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="0dp"
+        android:src="@drawable/fb_button2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-10dp"
+        android:layout_below="@+id/profile_image"
+        android:layout_alignLeft="@+id/profile_image" />
+    <ImageView
+        android:id="@+id/youtube_button"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/youtube_button2"
+        android:layout_alignTop="@id/youtubecircle"
+        android:layout_alignLeft="@id/youtubecircle"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageView
+        android:id="@+id/spot_btn"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:src="@drawable/sport_button2"
+        android:layout_alignTop="@id/sportcircle"
+        android:layout_alignLeft="@id/sportcircle"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"/>
+</RelativeLayout>

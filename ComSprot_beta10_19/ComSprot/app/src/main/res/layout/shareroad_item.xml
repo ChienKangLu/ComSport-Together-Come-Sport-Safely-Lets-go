@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" ff"/>
+    <ImageView
+        android:id="@+id/roadpic"
+        android:src="@drawable/map_loading1"
+        android:layout_width="130dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" >
+    </ImageView>
+
+    <!--
+    <WebView
+        android:id="@+id/roadpic"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        ></WebView>-->
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="富貴角燈塔"
+        android:textStyle="bold"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_alignTop="@+id/roadpic"
+        android:layout_toRightOf="@+id/roadpic"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="28dp"
+        android:textColor="@color/B"/>
+    <TextView
+        android:id="@+id/descript"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="景美自行車路口-北海岸回程"
+        android:paddingTop="5dp"
+        android:layout_below="@+id/title"
+        android:layout_alignLeft="@+id/title"
+        android:layout_alignStart="@+id/title"
+        android:textColor="@color/B" />
+    <TextView
+        android:id="@+id/dis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:text="22.7km"
+        android:layout_below="@+id/descript"
+        android:layout_alignLeft="@+id/title"
+        android:layout_alignStart="@+id/title"/>
+    <TextView
+        android:id="@+id/go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="路線由 陸建綱 建立"
+        android:textSize="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/personal_icon_non"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" />
+    <!--
+    <ImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/personal_icon_non"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"/>
+-->
+    <!--
+               android:textScaleX="1.5" -->
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is the fragment  to be displayed for a section associated with a tab -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/top_back"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/shadow2"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+    <!--
+    <ImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>-->
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="陸建綱"
+        android:layout_below="@id/top_back"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textColor="@color/B"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/bikeback"
+        android:background="@drawable/bike_mark"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/name"/>
+    <com.lwtwka.basal.comsprot.adapter.MyListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/list1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="@android:color/transparent"
+        android:layout_below="@id/bikeback"
+        android:divider="@android:color/transparent"
+        >
+    </com.lwtwka.basal.comsprot.adapter.MyListView>
+    <View
+        android:id="@+id/line3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:background="@color/divdot"
+        android:layout_below="@id/list1"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        />
+    <TextView
+        android:id="@+id/accounttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="帳號設定"
+        android:layout_below="@id/line3"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:clickable="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="100dp"
+    android:id="@+id/haha">
+    <LinearLayout
+        android:tag="Bottom2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/magnifier"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:text="Delete"
+            android:textSize="22dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:textColor="@color/white"
+            />
+        <!--
+        <ImageView
+            android:id="@+id/magnifier"
+            android:src="@drawable/king"
+            android:layout_width="70dp"
+            android:background="#f7e79c"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:layout_height="match_parent" />
+            -->
+        <TextView
+            android:id="@+id/star"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:text="JoinBack"
+            android:textSize="22dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            />
+        <!--
+        <ImageView
+            android:id="@+id/star"
+            android:src="@drawable/king"
+            android:layout_width="70dp"
+            android:background="#4cd964"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:layout_height="match_parent" />-->
+        <!--
+        <ImageView
+            android:id="@+id/trash"
+            android:src="@drawable/king"
+            android:layout_width="70dp"
+            android:background="@color/holo_red_dark"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:layout_height="match_parent" />
+            -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="不要這麼懶!快點一起騎車"
+            android:background="@color/j2"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:gravity="center"/>
+        <Button
+            android:visibility="invisible"
+            android:id="@+id/click"
+            android:text="Click"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</com.daimajia.swipe.SwipeLayout>

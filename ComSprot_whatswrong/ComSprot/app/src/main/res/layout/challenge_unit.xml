@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imcenter"
+        android:layout_width="42dp"
+        android:layout_height="20dp"
+        android:src="@drawable/unit"
+        android:layout_centerHorizontal="true"/><!--
+        android:layout_centerInParent="true"-->
+    <!--
+    <ImageView
+        android:id="@+id/imcenter2"
+        android:layout_width="50dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ch_center_r"
+        android:layout_below="@id/imcenter"
+        android:layout_centerHorizontal="true"/>-->
+</RelativeLayout>

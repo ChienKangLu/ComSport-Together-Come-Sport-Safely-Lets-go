@@ -1,0 +1,63 @@
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <style>
+        html, body, #map_canvas {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        }
+
+    </style>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+    <script type="text/javascript">
+var geocoder;
+  var map;
+  function initialize() {
+    geocoder = new google.maps.Geocoder();
+    var latlng = new google.maps.LatLng(24.98367,121.453586);
+    var myOptions = {
+      zoom: 14,
+      center: latlng,
+      draggable:true,
+      clickable:true,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+
+    }
+    map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+    //codeAddress('台北市萬華區昆明街225號');
+  }
+
+  function codeAddress(a,i) {
+    var address =a;//'台北市萬華區昆明街225號'
+    var marker = null;
+    if (geocoder) {
+      geocoder.geocode( { 'address': address}, function(results, status) {
+        if (status == google.maps.GeocoderStatus.OK) {
+          map.setCenter(results[0].geometry.location);
+          marker = new google.maps.Marker({
+              map: map,
+              position: results[0].geometry.location,
+              visible:true,
+              title:address
+          });
+          if(i==0){
+          var infowindow = new google.maps.InfoWindow({
+                content:address
+            });
+            infowindow.open(map,marker);
+            }
+        } else {
+          alert("Geocode was not successful for the following reason: " + status);
+        }
+      });
+    }
+  }
+</script>
+</head>
+<body onload="initialize()">
+<div id="map_canvas"></div>
+
+</body>
+</html>

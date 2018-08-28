@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    android:background="@drawable/bg3"-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--
+    android:background="@drawable/bg3"-->
+    <!--
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg3"/>
+        -->
+    <ImageView
+        android:id="@+id/left"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="35dp"
+        android:layout_marginLeft="45dp"
+        android:src="@drawable/main_left"/>
+
+    <ImageView
+        android:id="@+id/right"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="35dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/main_right"/>
+    <ImageView
+        android:id="@+id/center"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:src="@drawable/main_center"/>
+
+
+    <!--
+    <ImageView
+        android:id="@+id/personal_background_image"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-100dp"
+        android:background="@drawable/king" />-->
+<!--
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:text="no more"
+        android:gravity="center"
+        android:textColor="@color/B"
+        android:background="@drawable/main_bg"
+        android:layout_alignParentBottom="true"/>
+    -->
+
+<com.lwtwka.basal.comsprot.adapter.ElasticScrollView
+    android:id="@+id/mysv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="35dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+
+    android:id="@+id/con">
+    <!--
+        <com.astuetz.PagerSlidingTabStrip
+            android:id="@+id/tabs"
+            app:pstsShouldExpand="true"
+            app:pstsTextAllCaps="true"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/total_top"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:pstsDividerColor="@android:color/transparent"
+            app:pstsIndicatorHeight="5dp"
+            app:pstsIndicatorColor="@color/white"
+            app:pstsTabBackground="@drawable/tabchoose"
+
+            >
+        </com.astuetz.PagerSlidingTabStrip>
+
+                app:pstsTabBackground="@color/total_top"
+        -->
+
+<!--
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/detailtext"
+        android:clipChildren="false"
+        />-->
+    <LinearLayout
+        android:id="@+id/top1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        >
+        <ImageView
+            android:layout_width="@dimen/mainicon"
+            android:layout_height="@dimen/mainicon"
+            android:src="@drawable/mainic1"
+            android:id="@+id/mainic1"
+            android:clickable="true"/>
+        <ImageView
+            android:layout_width="@dimen/mainicon"
+            android:layout_height="@dimen/mainicon"
+            android:src="@drawable/mainic2"
+            android:id="@+id/mainic2"
+            android:clickable="true" />
+        <ImageView
+            android:layout_width="@dimen/mainicon"
+            android:layout_height="@dimen/mainicon"
+            android:src="@drawable/mainic3"
+            android:id="@+id/mainic3"
+            android:clickable="true" />
+        <ImageView
+            android:layout_width="@dimen/mainicon"
+            android:layout_height="@dimen/mainicon"
+            android:src="@drawable/mainic4"
+            android:id="@+id/mainic4"
+            android:clickable="true" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/top2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top1"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white">
+        <ImageView
+            android:layout_width="@dimen/mainicon"
+            android:layout_height="@dimen/mainicon"
+            android:src="@drawable/mainic5"
+            android:id="@+id/mainic5"
+            android:clickable="true"/>
+        <ImageView
+            android:layout_width="@dimen/mainicon"
+            android:layout_height="@dimen/mainicon"
+            android:src="@drawable/mainic6"
+            android:id="@+id/mainic6"
+            android:clickable="true"/>
+        <ImageView
+            android:layout_width="@dimen/mainicon"
+            android:layout_height="@dimen/mainicon"
+            android:src="@drawable/mainic7"
+            android:id="@+id/mainic7"
+            android:clickable="true"/>
+        <ImageView
+            android:layout_width="@dimen/mainicon"
+            android:layout_height="@dimen/mainicon"
+            android:src="@drawable/mainic8"
+            android:id="@+id/mainic8"
+            android:clickable="true"/>
+    </LinearLayout>
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:background="@color/divdot"
+        android:layout_below="@id/top2"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+
+        />
+
+    <com.lwtwka.basal.comsprot.basalmainpagehaha.PagerContainer
+        android:layout_below="@id/line1"
+        android:id="@+id/pager_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+        <android.support.v4.view.ViewPager
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal" />
+    </com.lwtwka.basal.comsprot.basalmainpagehaha.PagerContainer>
+<LinearLayout
+    android:id="@+id/line2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/pager_container"
+    android:background="@color/white"
+    >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:background="@color/divdot"
+        android:layout_below="@id/pager_container"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        />
+</LinearLayout>
+    <!--
+        android:layout_marginBottom="35dp"-->
+    <com.lwtwka.basal.comsprot.adapter.MyListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/list1"
+        android:layout_below="@id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@android:color/transparent"
+        android:divider="@drawable/divider_dotted2"
+        android:dividerHeight="10dp"
+        android:background="@color/white"
+        >
+    </com.lwtwka.basal.comsprot.adapter.MyListView>
+<!--
+    <zrc.widget.ZrcListView
+        android:id="@+id/zListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/pager_container">
+    </zrc.widget.ZrcListView>-->
+
+
+
+
+
+
+
+
+</RelativeLayout>
+
+</com.lwtwka.basal.comsprot.adapter.ElasticScrollView>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="36dp"
+android:layout_alignParentBottom="true">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+    <!--
+    <TextView
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:text="8"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/circle_white2" />
+        -->
+    <ImageView
+        android:id="@+id/join"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="#7144FB"
+        android:padding="3dp"
+        android:src="@drawable/jbicon"
+        android:clickable="true"/>
+</RelativeLayout>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/B">
+
+    </View>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+    <!--
+    <TextView
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:text="1"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/circle_white2"/>
+        -->
+    <ImageView
+        android:id="@+id/ch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:padding="3dp"
+        android:background="#7144FB"
+        android:src="@drawable/chaicon"
+        android:clickable="true"
+        />
+</RelativeLayout>
+</LinearLayout>
+</RelativeLayout>

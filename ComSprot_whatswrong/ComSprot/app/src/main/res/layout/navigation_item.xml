@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="100dp">
+
+
+    <ImageView
+        android:id="@+id/bike"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/mybike"
+        android:layout_centerInParent="true"
+        />
+    <ImageView
+    android:id="@+id/arrow"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:src="@drawable/myarrow"
+    android:layout_toRightOf="@+id/bike"
+    android:layout_alignTop="@id/bike"/>
+    <ImageView
+        android:id="@+id/arrow2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/myarrow"
+        android:layout_toLeftOf="@+id/bike"
+        android:layout_alignTop="@id/bike"/>
+    <LinearLayout
+
+        android:id="@+id/point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toLeftOf="@+id/arrow2"
+        android:layout_alignTop="@id/bike"
+        android:layout_marginTop="-10dp"
+        android:gravity="center"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/startpoint"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/naviclick"
+            android:clickable="true"
+            />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/perimg"
+                android:layout_alignTop="@id/startpoint"
+                android:layout_alignLeft="@id/startpoint"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="18dp"
+                />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="台北"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/point2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/arrow"
+        android:layout_alignTop="@id/bike"
+        android:layout_marginTop="-10dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/endpoint"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/naviclick2"
+            android:clickable="true"
+            />
+
+        <TextView
+            android:id="@+id/end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+
+            android:text="高雄"/>
+    </LinearLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/s"/>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/e"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BASALQQ"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <!--
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/bike"
+        android:layout_marginTop="-10dp"-->
+
+
+</RelativeLayout>
