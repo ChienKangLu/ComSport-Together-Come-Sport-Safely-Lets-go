@@ -6,11 +6,7 @@
 According to the statistics of National Police Administration, the number of bicycle accidents is increased year by year. Therefore, it can indicate that the risk of riding bicycle is extremely high. To reduce the risk, we design this app whose goal is used to assist bicyclist with unknown or unfamiliar route, record route or hold competition with friends. It has complete record and analysis of route, connects with social network and covers all good function of various sports apps. Moreover, we connect with National Geographic Information System (NGIS) and use its slope information to design an real-time algorithm to remind bicyclist to be careful if there is a downhill path in front. This algorithm can help bicyclist to face unknown or unfamiliar route and provide more safety guarantee.
 
 ## Team members
-+ 王慧縈
-+ 蔡穎珊
-+ 吳宛穎
-+ Chien-Kang Lu
-+ 柯皓元
++ 王慧縈、蔡穎珊、吳宛穎、陸建綱、柯皓元
 
 ## Develop tools and techniques
 + National Geographic Information System (NGIS)
