@@ -12,7 +12,7 @@ According to the statistics of National Police Administration, the number of bic
 + Chien-Kang Lu
 + 柯皓元
 
-## Develop tool and technique
+## Develop tools and techniques
 + National Geographic Information System (NGIS)
 + Google MAPS API V3、Google MAPS API Geocode、Google Place API for Android、YouTube Android player API
 + SQL server
