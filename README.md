@@ -12,6 +12,13 @@ According to the statistics of National Police Administration, the number of bic
 + Chien-Kang Lu
 + 柯皓元
 
+## Develop tool and technique
++ National Geographic Information System (NGIS)
++ Google MAPS API V3、Google MAPS API Geocode、Google Place API for Android、YouTube Android player API
++ SQL server
++ Android Studio
++ Android location GPS location service
+
 ## System functions
 + Basic service
     + Providing personal riding record and analysis
@@ -32,13 +39,6 @@ According to the statistics of National Police Administration, the number of bic
 <p align="center">
   <img src="https://github.com/ChienKangLu/ComSport-Together-Come-Sport-Safely-Lets-go/blob/master/img/system.jpg" />
 </p>
-
-## Develop tool and technique
-+ National Geographic Information System (NGIS)
-+ Google MAPS API V3、Google MAPS API Geocode、Google Place API for Android、YouTube Android player API
-+ SQL server
-+ Android Studio
-+ Android location GPS location service
 
 ## Flyer and poster
 <table>
