@@ -51,6 +51,10 @@ According to the statistics of National Police Administration, the number of bic
   </tr>
 </table>
 
+## System Demo 
+<a href="https://www.youtube.com/watch?v=BzvDoABMT-U" target="_tab"><img src="http://img.youtube.com/vi/BzvDoABMT-U/0.jpg" 
+alt="Mobile demo" width="240" height="180" border="10" /></a>
+
 ## Awards
 + Taipei Computer Association TRANS-ACTION AWARD Top 10
 + Interational ICT Innovative Service Awards 2015 Exellent Work
