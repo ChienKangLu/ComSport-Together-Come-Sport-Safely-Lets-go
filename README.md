@@ -53,4 +53,5 @@ alt="Mobile demo" width="240" height="180" border="10" /></a>
 
 ## Awards
 + Taipei Computer Association TRANS-ACTION AWARD Top 10
-+ Interational ICT Innovative Service Awards 2015 Exellent Work
++ International ICT Innovative Services Awards 2015 Exellent Work
+
